@@ -7,7 +7,7 @@ Widget::Widget(QWidget *parent)
     , ui(new Ui::Widget)
 {
     ui->setupUi(this);
-    this->resize(977,632);//设置窗口大小
+    this->setFixedSize(977,632);//设置窗口大小
     this->setWindowTitle("tank");//设置窗口标题
     this->setWindowIcon(QIcon(":/img/tubiao.png"));//设置窗口图标
 
