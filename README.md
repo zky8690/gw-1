@@ -1,12 +1,6 @@
 # 坦克动荡魔改版作业报告
 
-<center>gw说的对不&emsp;队
-<br><br>
-张子沐&emsp;任致远&emsp;张科宇</center>
-
-
-
-[TOC]
+作者：张子沐 任致远 张科宇
 
 本项目是对经典小游戏“坦克动荡”的魔改与加强，不仅基本复刻了坦克动荡的游戏设定和规则，而且对原游戏的细节做出了升级和加强。
 
@@ -16,12 +10,13 @@
 
 1. 游戏初始界面的布局。包括游戏背景音乐的打开/关闭按钮，帮助、设置、进入游戏、退出游戏等按钮的鼠标悬停动画及音效，程序的标题、图标等设计。
 
-<img src="C:\Users\71582\AppData\Roaming\Typora\typora-user-images\image-20230707210042449.png" style="zoom: 33%;" />
+![image](img/READMEimg/1.png)
+
 2. 游戏玩法说明界面。包括当玩家未确认时，“Q”键和“M”键的动画，以及当玩家按下“Q”和“M”后图案颜色的改变。
 
-<img src="C:\Users\71582\AppData\Roaming\Typora\typora-user-images\image-20230707210118676.png" style="zoom: 33%;" />
+![image](img/READMEimg/2.png)
 
-<img src="C:\Users\71582\AppData\Roaming\Typora\typora-user-images\image-20230707210350508.png" alt="image-20230707210350508" style="zoom: 33%;" />
+![image](img/READMEimg/3.png)
 
 3. 游戏界面中的音效。包括坦克发射子弹的音效、子弹和墙壁碰撞从而反弹的音效、坦克被子弹击中后爆炸的音效。
 
@@ -53,7 +48,7 @@
 
 为了增加游戏的趣味性和不确定性，每局游戏开始之前，游戏的地图都会进行刷新；坦克的初始位置和朝向则会随机确定。
 
-<img src="C:\Users\71582\AppData\Roaming\Typora\typora-user-images\image-20230707214655140.png" alt="image-20230707214655140" style="zoom: 33%;" />
+![image](img/READMEimg/4.png)
 
 玩家可以通过键盘操作控制坦克的前进、后退、转向以及发射子弹，绿方坦克发射绿色子弹，蓝方坦克发射蓝色子弹。坦克和子弹的运动速度会随着地图的大小进行等比例的调整。
 
@@ -61,7 +56,7 @@
 
 子弹与墙壁碰撞后会发生类似于光线的”镜面反射“，因此一方坦克发射的子弹也是极为可能打中自己的，这为游戏增添了极大的乐趣。一方坦克一次性只能够发射五枚子弹，子弹在飞行10秒钟后会消失，这时坦克又可以重新发射子弹。所以，玩家在操控坦克时，要合理控制每次发射子弹的颗数，防止自己陷入到短时间没子弹的被动局面之中。
 
-<img src="C:\Users\71582\AppData\Roaming\Typora\typora-user-images\image-20230707220200089.png" alt="image-20230707220200089" style="zoom: 33%;" />
+![image](img/READMEimg/5.png)
 
 当子弹与坦克碰撞后，坦克会触发爆炸动画。当一方坦克死亡之后，本局比赛还会进行一小段时间，如果在这段时间内，另一辆坦克也不幸爆炸，则本局计为平局，双方均不得分；反之，若有一方坦克活了下来，则该坦克获得本局游戏的胜利，分数加一。
 
